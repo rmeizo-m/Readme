@@ -36,8 +36,8 @@ npm start
 ## Пример как работает Websocket + Redux + Hook
 
 <code>
-import { socket } from 'socketUtil.js';
-import { useDispatch } from 'react-redux';
+    import { socket } from 'socketUtil.js'; \
+    import { useDispatch } from 'react-redux';\
 </code>
 
 <code>
