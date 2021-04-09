@@ -22,9 +22,9 @@ npm start
 ## Структура проекта
 ### Компоненты-контейнеры и презентационные компоненты.
 
->чистая функция — это функция, которая: \
-+ является детерминированной; 
-+ не обладает побочными эффектами.
+> Чистая функция — это функция, которая: \
+>> является детерминированной; 
+>> не обладает побочными эффектами.
 
 
 компоненты-контейнеры содержат исходные данные и работают с состоянием
@@ -35,12 +35,12 @@ npm start
 
 ## Пример как работает Websocket + Redux + Hook
 
-<code>
-    import { socket } from 'socketUtil.js'; \
-    import { useDispatch } from 'react-redux';\
-</code>
+<pre><code> 
+import { socket } from 'socketUtil.js';
+import { useDispatch } from 'react-redux'; 
+</code></pre>
 
-<code>
+<pre><code>
 const ChatRoomComponent = () => {
     const dispatch = useDispatch();
 
@@ -53,9 +53,8 @@ const ChatRoomComponent = () => {
             // handling a new user joining to room
         });
     });
-    // other implementations
-  }
-</code>
+    // other implementations }
+</code></pre>
 
 ###### http://webdesign.ru.net/article/pravila-oformleniya-fayla-readmemd-na-github.html
 
